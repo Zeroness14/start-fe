@@ -40,6 +40,20 @@ for (var i = 0; i < arr.length; i++){
 
 }
 
+var todos = [ '운동'];
+todos = ['운동','게임'];
+
+var todo = '게임';
+todos.push(todo);
+
+todos.forEach(function(todo){
+    console.log(todo);
+});
+
+var updateTodo = '게임';
+
+
+
 */
 
 var age = 20;
