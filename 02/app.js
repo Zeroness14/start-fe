@@ -1,17 +1,17 @@
-var name = 'aj';
-name = 111;
-console.log(name);
+//var name = 'aj';
+//name = 111;
+//console.log(name);
 
-var isMan = 'true';
-var isMan1 = true;
-console.log(isMan);
+//var isMan = 'true';
+//var isMan1 = true;
+//console.log(isMan);
 
 //object
 
-var img = {};
-img.width = 100;
-img.height = 200;
-console.log(img);
+//var img = {};
+//img.width = 100;
+//img.height = 200;
+//console.log(img);
 
 // 배열
 
@@ -19,10 +19,10 @@ console.log(img);
 //console.log(arr);
 
 // 연산자
-console.log(1+1);
-console.log(name + 'hello');
+//console.log(1+1);
+//console.log(name + 'hello');
 
-var me = {
+/* var me = {
     age: 11,
     name: 'aj',
     isMan: true,
@@ -40,4 +40,19 @@ for (var i = 0; i < arr.length; i++){
 
 }
 
+*/
 
+var age = 20;
+console.log(age);
+
+var isMan = 'true';
+var isMan = true;
+console.log(isMan);
+
+var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+console.log(arr + 'month');
+
+var img = {};
+img.width = 100;
+img.height = 200;
+console.log(img);
