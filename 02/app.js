@@ -15,9 +15,29 @@ console.log(img);
 
 // 배열
 
-var arr = [1, 2, 3, 4, 5];
-console.log(arr);
+//var arr = [1, 2, 3, 4, 5];
+//console.log(arr);
 
 // 연산자
 console.log(1+1);
 console.log(name + 'hello');
+
+var me = {
+    age: 11,
+    name: 'aj',
+    isMan: true,
+    sayHello: function () {
+        console.log('hello');
+    },
+};
+
+//me.sayHello();
+
+var arr = [1, 2, 3, 4, 5];
+console.log(arr.length);
+
+for (var i = 0; i < arr.length; i++){
+
+}
+
+
