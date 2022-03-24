@@ -41,7 +41,7 @@ window.onload = function () {
 window.addEventListener('load', function(){
     console.log('load2');
 });
-*/
+
 var clickCount = 0;
 function popup(event){
     console.log(++clickCount);
@@ -52,4 +52,11 @@ document.body.addEventListener('click', popup);
 document.body.addEventListener('click', function(){
     console.log("click");
 });
+*/
+
+var link = document.querySelector('a');
+link.addEventListener('click', function(event){
+    window.open('https://daum.net');
+    event.preventDefault();
+})
 
